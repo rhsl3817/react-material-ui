@@ -22,21 +22,26 @@ export const LayoutListItems = (
         <ListItemText inset primary="Container" />
       </ListItem>
     </Link>
-    <ListItem button>
-      <ListItemIcon>
-        <ViewComfyIcon />
-      </ListItemIcon>
-      <ListItemText primary="Grid" />
-    </ListItem>
+      <Link to="/grid" style={aTagStyle}>
+        <ListItem button>
+          <ListItemIcon>
+            <ViewComfyIcon />
+          </ListItemIcon>
+            <ListItemText primary="Grid" />
+        </ListItem>
+      </Link>
   </div>
 );
 
 export const InputListItems = (
   <div>
     <ListSubheader inset>Inputs</ListSubheader>
-    <ListItem button>
-      <ListItemText inset primary="Button" />
-    </ListItem>
+    
+    <Link to="/button" style={aTagStyle}>
+      <ListItem button>
+        <ListItemText inset primary="Button" />
+      </ListItem>
+    </Link>
     <ListItem button>
       <ListItemText inset primary="Button Group" />
     </ListItem>

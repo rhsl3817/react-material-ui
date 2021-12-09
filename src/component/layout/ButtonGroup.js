@@ -72,7 +72,7 @@ const ButtopGroupComponent = () => {
       </div>
       <Divider />
       <h1>API</h1>
-      {`import ButtonGroup from '@material-ui/core/ButtonGroup''`}
+      {`import ButtonGroup from '@material-ui/core/ButtonGroup'`}
     </div>
   );
 };
